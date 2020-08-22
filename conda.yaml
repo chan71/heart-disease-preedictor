@@ -1,0 +1,15 @@
+name: heart-disease-predictor
+channels:
+    - default
+    - ananconda
+    - conda-forge
+
+dependencies:
+    - python=3.6
+    - pandas
+    - scikit-learn
+    - boto3
+    - numpy
+    - pip
+    - pip:
+      - mlflow>=1.0

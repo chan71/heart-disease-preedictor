@@ -1,0 +1,7 @@
+name: heart_disease_predictor
+
+conda_end: conda.yaml
+
+entry_points:
+    main:
+        command: "python heart-disease.py"

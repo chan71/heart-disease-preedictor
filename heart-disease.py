@@ -27,7 +27,7 @@ X.head()
 
 import mlflow
 
-mlflow.set_experiment("heart_disease")
+# mlflow.set_experiment("heart_disease")
 
 with mlflow.start_run():
 

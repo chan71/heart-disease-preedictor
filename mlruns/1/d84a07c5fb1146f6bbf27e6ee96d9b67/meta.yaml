@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ckit/playspace/mlflow-samples/heart-disease-predictor/mlruns/1/d84a07c5fb1146f6bbf27e6ee96d9b67/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: d84a07c5fb1146f6bbf27e6ee96d9b67
+run_uuid: d84a07c5fb1146f6bbf27e6ee96d9b67
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1598134604724
+status: 1
+tags: []
+user_id: ckit

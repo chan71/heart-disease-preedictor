@@ -1,0 +1,16 @@
+
+mlflow models serve -m runs:/<modelid>/model  --port 10000
+
+mlflow models serve -m runs:/871ffb16131f427e8275bc99a85c9cc0/model  --port 1234
+
+curl http://127.0.0.1:1234/invocations -H 'Content-Type: application/json' -d '{ 
+    "columns": ["age", "sex", "cp", "trestbps", "chol", "fbs",	"restecg", "thalach", "exang", "oldpeak", "slope", "ca", "thal"], 
+    "data": [[41.0, 0.0, 2.0, 130.0, 204.0, 0.0, 2.0, 172.0, 0.0, 1.4, 1.0, 0.0, 3.0]]
+    }'
+
+
+curl http://127.0.0.1:1234/invocations -H 'Content-Type: application/json' -d '{ 
+    "columns": ["age", "sex", "cp", "trestbps", "chol", "fbs",	"restecg", "thalach", "exang", "oldpeak", "slope", "ca", "thal"], 
+    "data": [[41.0, 0.0, 2.0, 130.0, 204.0, 0.0, 2.0, 172.0, 0.0, 1.4, 1.0, 2.0, 3.0]]
+    }'
+
